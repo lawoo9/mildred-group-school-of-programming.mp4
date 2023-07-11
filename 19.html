@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Video embed</title>
+<style>
+    .table{
+        counter-reset: chapter;
+    }
+
+    .table h3::before{
+        counter-increment: chapter;
+        content: "chapter " counter(chapter) ": ";
+    }
+</style>
+</head>
+<body>
+    <div class ="table">
+<h3><iframe width ="560" height= "315" src ="https://www.youtube.com/embed/n5C67urgYT8" frameborder="0" allowfullscreen></iframe></h3>
+<h3><iframe width ="560" height= "315" src ="https://www.youtube.com/embed/ZcioEcAkOx4" frameborder="0" allowfullscreen></iframe></h3>
+<h3><iframe width ="560" height= "315" src ="https://www.youtube.com/embed/hE46mhB7WEo" frameborder="0" allowfullscreen></iframe></h3>
+<h3><iframe width ="560" height= "315" src ="https://www.youtube.com/embed/MJlmKQ24-ZY" frameborder="0" allowfullscreen></iframe></h3>   
+   </div>
+</body>
+</html>

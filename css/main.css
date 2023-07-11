@@ -1,0 +1,35 @@
+h1{
+    color:blue;
+}
+
+.topnav ul{
+    list-style-type:none;
+    margin: 50px;
+    float:right;
+}
+
+.topnav li a {
+    display: inline;
+}
+.topnav{
+    position:fixed;
+    top:0;
+    left:0;
+    right0;
+    height:100px;
+    background-color:white;
+    color:blue;
+}
+
+h3{
+    color:black;
+}
+
+p{
+    color:red;
+}
+body{
+    background-color: white;
+    color:aqua;
+    font-style: italic;
+}
